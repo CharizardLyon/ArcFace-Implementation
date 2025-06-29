@@ -1,0 +1,16 @@
+# Training settings
+epochs: 20
+batch_size: 64
+learning_rate: 0.001
+device: cuda
+#Model settings
+backbone: resnet50
+embedding_size: 512
+num_classes: 15
+#Arcface settings
+arcface_margin: 0.5
+arcface_scale: 30.0
+arcface_easy_margin: false
+# Data paths
+train_data_path: ./data/train
+val_data_path: ./data/val
