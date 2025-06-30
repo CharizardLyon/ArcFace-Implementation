@@ -5,7 +5,7 @@ This project implements a modular face recognition system using a ResNet backbon
 # Project Structure
 
 ├── train.py # Train model <br>
-├── eval.py # Evaluate model <br><
+├── eval.py # Evaluate model <br>
 ├── infer.py # Run inference on a new image <br>
 ├── precompute_embeddings.py # Precompute embeddings from a gallery <br>
 ├── config/ <br>
