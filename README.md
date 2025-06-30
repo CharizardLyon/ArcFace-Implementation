@@ -26,6 +26,4 @@ This project implements a modular face recognition system using a ResNet backbon
 
 # Training
 
-"""
 python train.py --config config/default.yaml
-"""
