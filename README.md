@@ -4,25 +4,25 @@ This project implements a modular face recognition system using a ResNet backbon
 
 # Project Structure
 
-├── train.py                 # Train model
-├── eval.py                  # Evaluate model
-├── infer.py                 # Run inference on a new image
+├── train.py # Train model
+├── eval.py # Evaluate model
+├── infer.py # Run inference on a new image
 ├── precompute_embeddings.py # Precompute embeddings from a gallery
 ├── config/
-│   └── default.yaml         # All config settings
+│ └── default.yaml # All config settings
 ├── data/
-│   └── dataloader.py        # Dataset and DataLoader utilities
+│ └── dataloader.py # Dataset and DataLoader utilities
 ├── models/
-│   ├── arcface.py           # ArcFace implementation
-│   └── resnet_arcface.py    # ResNet + ArcFace model
+│ ├── arcface.py # ArcFace implementation
+│ └── resnet_arcface.py # ResNet + ArcFace model
 ├── utils/
-│   ├── logger.py            # Logging setup
-│   ├── trainer.py           # Training/validation functions
-│   ├── metrics.py           # Accuracy metrics
-│   └── utils.py             # Device, seed, helpers
+│ ├── logger.py # Logging setup
+│ ├── trainer.py # Training/validation functions
+│ ├── metrics.py # Accuracy metrics
+│ └── utils.py # Device, seed, helpers
 ├── experiment/
-│   └── checkpoints/         # Trained model weights
-└── embeddings/              # Precomputed feature vectors
+│ └── checkpoints/ # Trained model weights
+└── embeddings/ # Precomputed feature vectors
 
 # Training
 
