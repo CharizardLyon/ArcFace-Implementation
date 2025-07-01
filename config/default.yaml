@@ -1,16 +1,18 @@
 # Training settings
-epochs: 20
+epochs: 1
 batch_size: 64
 learning_rate: 0.001
 device: cuda
+checkpoint_dir: experiment/checkpoints
 #Model settings
-backbone: resnet50
+backbone: resnet18
 embedding_size: 512
-num_classes: 15
+num_classes: 2
 #Arcface settings
 arcface_margin: 0.5
 arcface_scale: 30.0
 arcface_easy_margin: false
 # Data paths
-train_data_path: ./data/train
-val_data_path: ./data/val
+train_data_path: ../dataset/mock
+val_data_path: ../dataset/mock
+seed: 42
